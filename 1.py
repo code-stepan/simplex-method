@@ -111,7 +111,7 @@ if result.success:
     print(f"z (хлеб): {result.x[2]:.0f}")
     print(f"Минимальные затраты: {result.fun:.2f}")
 else:
-    print("❌ Решение не найдено.")
+    print("Решение не найдено.")
     print("Сообщение:", result.message)
 
 
